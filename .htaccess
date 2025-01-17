@@ -1,0 +1,4 @@
+Header set Access-Control-Allow-Origin "*"
+<FilesMatch "\.(mp3)$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+</FilesMatch>
